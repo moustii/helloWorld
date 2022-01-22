@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    line-height: 1.6em;
+}
+
+/* ------------------------------------------- */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1,h2,h3 {
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #40CCEA;
+    word-spacing: 10px;
+    border-bottom: 1px dotted;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+
+/* ------------------------------------------------ */
+
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: #40CCEA;
+}
+
+nav a {
+    color: white;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* --------------------------------------------------- */
+main a {
+    color: #0096D0;
+}
+
+section {
+    margin: 30px 0;
+}
+
+.rouge {
+    color: #F00;
+}
+
+.ocre {
+    color: #CD8C56;
+}
+/* ----------------------------------------------------- */
+.voyage .readmore {
+    background-color: #0096D0;
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.voyage article {
+    margin-bottom: 100px;
+}
+
+.voyage img {
+    max-width: 49%;
+}
+
+.gauche {
+    float: left;
+    padding-right: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.droite {
+    float: right;
+    padding-left: 20px;
+}
+
+
+/* --------------------------------------------------------------- */
+.apropos {
+    background-image: url('../img/fond.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 100%;
+    min-height: 40rem;
+    border: 1px solid white;
+}
+
+.apropos article {
+    width: 35%;
+    margin-left: 180px;
+    margin-top: 50px;
+    background-color: white;
+    line-height: 4rem;
+}
+
+/* -------------------------------------------------------------------- */
+.contact a {
+    display: block;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.contact {
+    margin-bottom: 10px;
+}
+
+.contact adresse a:nth-child(1) {
+    color: black;
+}
+
+.fa-facebook-square {
+    color: #4267B2;
+}
+
+.fa-twitter-square {
+    color: #1da1f2;
+}
+
+.fa-pinterest-square {
+    color: #bd081c;
+}
+
+.fa-instagram-square {
+    color:#8948C1;
+}
+/*  */
+footer {
+    background-color: #40CCEA;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+footer img {
+    width: 60px;
+}
+
